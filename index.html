@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>abhishekshalu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+    h2 {
+      color: #222;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .icons {
+      display: flex;
+      gap: 1rem;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .icons {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Abhishek shalu</h1>
+    <p>Web Developer | Designer | Photographer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm Abhishek shalu. I'm passionate about technology and creativity. I build websites, design graphics, and love capturing moments with my camera.</p>
+      <div class="icons">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="WhatsApp Image 2025-02-06 at 10.18.53_8f03b857.jpg" alt="Sample 1">
+        <img src="WhatsApp Image 2025-03-07 at 20.27.57_13525755.jpg" alt="Sample 2">
+        <img src="WhatsApp Image 2025-03-29 at 19.58.31_8db8e732.jpg" alt="Sample 3">
+        <img src="IMG-20250329-WA0019.jpg" alt="Sample 4">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: abhishekshalu1712@gmail.com</p>
+      <p>Phone: 9188319484</p>
+      <p>Location: Kerala, INDIA</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Abhishek shalu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
